@@ -1,0 +1,70 @@
+        * {
+            padding: 0px;
+            margin: 0px;
+        }
+        html {
+            font-family: 'Roboto', sans-serif;
+            font-size: 100%;
+
+            background-image: url("https://images.pexels.com/photos/574069/pexels-photo-574069.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260");
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            width: 100%;
+            height: 100%;
+        }
+        body{
+            background: transparent;
+        }
+        section{
+            width: 100%;
+            padding-top: 5%;
+            display: grid;
+            justify-content: center;
+        }
+        .container{
+            width: 500px;
+            height: 550px;
+            background: #F4F6F7;
+            border-radius: 20px;
+            overflow: hidden;
+            position: relative;
+        }
+        .container #banner{
+            width: 100%;
+            border-radius: 10px;
+            top: 0;
+        }
+        .container #photoprofile{
+            width: 40%;
+            border: 3px solid #F4F6F7;
+            position: absolute;
+            right: 142px;
+            border-radius: 10%;
+            top: 150px;
+        }
+        .info{
+            padding-top: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .info h1,h3,p{
+            padding: 3px;
+            align-content: center;
+        }
+        .redes{
+             width: 100%;
+             margin-top: 25px;
+             display: flex;
+             justify-content: space-evenly;
+             flex-direction: row;
+        }
+        .redes img{
+            width: 35px;
+            height: 35px;
+            margin-left: 5px;
+            border-radius: 50%;
+            box-shadow: 2px 2px 5px #B3B6B7;
+        }
+
